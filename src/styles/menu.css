@@ -1,0 +1,38 @@
+.menu-container {
+  width: 100%;
+  height: 100%;
+}
+.menu-tittle h1 {
+  text-align: center;
+  margin: 18px 0;
+  font-style: italic;
+  font-size: 3.5rem;
+}
+.menu-list {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 2rem 0;
+}
+.menu-item {
+  border-radius: 12px;
+  line-height: 2rem;
+  box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 34px;
+  cursor: pointer;
+  transition: ease-in-out 0.4s;
+}
+.menu-item:hover {
+  transform: translateY(-10px);
+}
+.menu-list img {
+  width: 330px;
+  height: 250px;
+  object-fit: cover;
+}
+.menu-item h2,
+p {
+  padding: 6px;
+}

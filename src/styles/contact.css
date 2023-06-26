@@ -1,0 +1,66 @@
+.contact {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+.left-side-contact {
+  height: 100%;
+  flex: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.right-side-contact {
+  height: 100%;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right-side-contact h1 {
+  margin-left: 32px;
+  font-size: 3rem;
+  font-style: italic;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  padding: 30px;
+  line-height: 2.5rem;
+}
+input {
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 1rem 0;
+  outline: none;
+}
+::placeholder {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+}
+textarea {
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 18px;
+  outline: none;
+}
+.send-btn {
+  max-width: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .left-side-contact {
+    display: none;
+  }
+  .right-side-contact {
+    width: 100%;
+  }
+}
